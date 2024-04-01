@@ -1,31 +1,19 @@
-#!/usr/bin node
-import { program } from 'commander';
-import { readFileSync } from 'fs';
-import process from 'process';
-import path from 'path';
-import parseFile from '../src/index.js';
-import compare from '../src/compare.js';
-import stringifyAndSort from '../src/stringify.js';
+#!/usr/bin/env node
+import { Command } from 'commander';
+import gendiff from '../src/index.js';
 
-const gendiff = (filepath1, filepath2) => {
-  const obj1 = parseFile(readFileSync(path.resolve(filepath1)));
-  const obj2 = parseFile(readFileSync(path.resolve(filepath2)));
-  const obj3 = compare(obj1, obj2);
-  const result = stringifyAndSort(obj3);
-  console.log(result);
-}
+const program = new Command();
 
 program
+  .name('gendiff')
   .description('Compares two configuration files and shows a difference.')
   .version('1.0.0')
   .option('-f, --format [type]', 'output format')
   .option('-h, --help', 'output usage information')
   .argument('<filepath1>')
-  .argument('<filepath2>');
-
-program.command('gendiff')  
+  .argument('<filepath2>')
   .action((filepath1, filepath2, options) => {
-    gendiff(filepath1, filepath2);
+    console.log(gendiff(filepath1, filepath2, options.format));
   });
 
 program.parse();
