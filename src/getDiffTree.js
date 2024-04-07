@@ -6,32 +6,30 @@ export default (obj1, obj2) => {
     if (!Object.hasOwn(obj2, key)) {
       return {
         key,
-        type: deleted,
+        type: 'deleted',
         value: obj1[key],
       };
     }
     if (!Object.hasOwn(obj1, key)) {
       return {
         key,
-        type: added,
+        type: 'added',
         value: obj2[key],
       };
     }
     if (Object.hasOwn(obj1, key) && Object.hasOwn(obj2, key) && obj1[key] !== obj2[key]) {
       return {
         key,
-        type: changed,
+        type: 'changed',
         value1: obj1[key],
         value2: obj2[key],
       };
     }
-    if (Object.hasOwn(obj1, key) && Object.hasOwn(obj2, key) && obj1[key] === obj2[key]) {
-      return {
-        key,
-        type: unchanged,
-        value: obj1[key],
-      };
-    }
+    return {
+      key,
+      type: 'unchanged',
+      value: obj1[key],
+    };
   });
   return result;
 };

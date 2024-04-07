@@ -1,6 +1,6 @@
 import { readFileSync } from 'fs';
 import path from 'path';
-import parseFile from './parse.js';
+import parseFile from './parsers.js';
 import getDiffTree from './getDiffTree.js';
 import getDiffInformation from './stringify.js';
 
