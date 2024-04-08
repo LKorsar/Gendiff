@@ -3,6 +3,11 @@
 
 [![gendiff CI](https://github.com/LKorsar/frontend-project-46/actions/workflows/gendiff.yml/badge.svg)](https://github.com/LKorsar/frontend-project-46/actions/workflows/gendiff.yml)
 
+[![Maintainability](https://api.codeclimate.com/v1/badges/683bd3dc4fd76799a149/maintainability)](https://codeclimate.com/github/LKorsar/frontend-project-46/maintainability)
+
+[![Test Coverage](https://api.codeclimate.com/v1/badges/683bd3dc4fd76799a149/test_coverage)](https://codeclimate.com/github/LKorsar/frontend-project-46/test_coverage)
+
+
 # Difference calculator
 
 ## Description:
