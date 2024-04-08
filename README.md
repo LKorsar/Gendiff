@@ -9,11 +9,11 @@
 Utility, which compares two configuration files and gets difference between them. Program accepts files whith extension json, yml and yaml. Output is avaliable in several formats: plain, stylish and json.
 
 ### System requirements:
-```Node.js
-```
+Node.js
 
 ### Setup
-```Make install
+```bash
+Make install
 ```
 
 
