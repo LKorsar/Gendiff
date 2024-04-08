@@ -11,8 +11,10 @@ Utility, which compares two configuration files and gets difference between them
 ### System requirements:
 ```Node.js
 ```
+
 ### Setup
 ```Make install
 ```
+
 
 
