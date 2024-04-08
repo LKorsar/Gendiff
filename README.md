@@ -13,7 +13,7 @@ Node.js
 
 ### Setup
 ```bash
-Make install
+make install
 ```
 
 
