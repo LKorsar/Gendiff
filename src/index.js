@@ -20,6 +20,7 @@ const gendiff = (filepath1, filepath2) => {
   const tree = getDiffTree(dataOfFile1, dataOfFile2);
   const result = getDiffInformation(tree);
   console.log(result);
+  return result;
 };
 
 export default gendiff;
