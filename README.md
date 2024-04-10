@@ -21,7 +21,7 @@ Node.js
 make install
 ```
 
-# Demonstration of comparing two flat json-files and two flat yml-files
+### Demonstration of comparing two flat json-files and two flat yml-files
 [https://asciinema.org/a/jdFtwYesIt9T8u4RSErSswcne](https://asciinema.org/a/UwLHmkSLOvSiCyMXVbBCmMniW)
 
 
