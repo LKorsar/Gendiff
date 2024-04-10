@@ -21,5 +21,9 @@ Node.js
 make install
 ```
 
+# Demonstration of comparing two json-files
+https://asciinema.org/a/jdFtwYesIt9T8u4RSErSswcne
+
+
 
 
