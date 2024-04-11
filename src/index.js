@@ -2,7 +2,7 @@ import { readFileSync } from 'fs';
 import path from 'path';
 import parseFile from './parsers.js';
 import getDiffTree from './getDiffTree.js';
-import getDiffInformation from './stringify.js';
+import getStylishFormat from './stringify.js';
 
 const gendiff = (filepath1, filepath2) => {
   const getFilePath1 = path.resolve(filepath1);
@@ -18,8 +18,8 @@ const gendiff = (filepath1, filepath2) => {
   const dataOfFile2 = parseFile(getFileData2, formatOfFile2);
 
   const tree = getDiffTree(dataOfFile1, dataOfFile2);
-  const result = getDiffInformation(tree);
-  console.log(result);
+  const result = getStylishFormat(tree);
+
   return result;
 };
 
