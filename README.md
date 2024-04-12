@@ -27,7 +27,7 @@ make install
 
 ### Demonstration of comparing two nested files
 
-[https://asciinema.org/a/r5B6fNaOKpGhA8gYDjZQRdNyS]
+https://asciinema.org/a/r5B6fNaOKpGhA8gYDjZQRdNyS
 
 
 
