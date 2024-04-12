@@ -22,7 +22,12 @@ make install
 ```
 
 ### Demonstration of comparing two flat json-files and two flat yml-files
+
 [https://asciinema.org/a/jdFtwYesIt9T8u4RSErSswcne](https://asciinema.org/a/UwLHmkSLOvSiCyMXVbBCmMniW)
+
+### Demonstration of comparing two nested files
+
+[https://asciinema.org/a/r5B6fNaOKpGhA8gYDjZQRdNyS]
 
 
 
