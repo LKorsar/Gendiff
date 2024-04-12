@@ -17,19 +17,19 @@ const getDiffTree = (obj1, obj2) => {
         value: obj2[key],
       };
     }
-    if (Object.hasOwn(obj1, key) && Object.hasOwn(obj2, key) && obj1[key] !== obj2[key]) {
-      return {
-        key,
-        type: 'changed',
-        value1: obj1[key],
-        value2: obj2[key],
-      };
-    }
     if (_.isPlainObject(obj1[key]) && _.isPlainObject(obj2[key])) {
       return {
         key,
         type: 'nested',
         children: getDiffTree(obj1[key], obj2[key]),
+      };
+    }
+    if (!_.isEqual(obj1[key], obj2[key])) {
+      return {
+        key,
+        type: 'changed',
+        value1: obj1[key],
+        value2: obj2[key],
       };
     }
     return {
