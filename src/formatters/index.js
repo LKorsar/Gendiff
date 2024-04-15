@@ -1,5 +1,5 @@
-import getPlainFormat from './plain';
-import getStylishFormat from './stylish';
+import getPlainFormat from './plain.js';
+import getStylishFormat from './stylish.js';
 
 const switchingFormat = (tree, formatName) => {
   switch (formatName) {
