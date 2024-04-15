@@ -12,6 +12,7 @@ const readFile = (filename) => fs.readFileSync(getFixturePath(filename), 'utf-8'
 
 const file1Output = readFile('fileOutput_.txt');
 const file2Output = readFile('fileOutput_yml.txt');
+const file3Output = readFile('fileOutput_plain.txt');
 
 const file1 = './__fixtures__/file1.json';
 const file2 = './__fixtures__/file2.json';
@@ -19,11 +20,20 @@ const file2 = './__fixtures__/file2.json';
 const file3 = './__fixtures__/file1.yml';
 const file4 = './__fixtures__/file2.yml';
 
-describe('gendiff', () => {
-  test('simple using', () => {
+describe('formatStylish(default)', () => {
+  test('using json-files', () => {
     expect(gendiff(file1, file2)).toEqual(file1Output);
   });
   test('using yml-files', () => {
     expect(gendiff(file3, file4)).toEqual(file2Output);
+  });
+});
+
+describe('formatPlain', () => {
+  test('using json-files', () => {
+    expect(gendiff(file1, file2, 'plain')).toEqual(file3Output);
+  });
+  test('using yml-files', () => {
+    expect(gendiff(file3, file4, 'plain')).toEqual(file3Output);
   });
 });
