@@ -8,7 +8,7 @@ const getPathToKey = (node, currentPath) => {
 };
 
 const stringify = (val) => {
-  if (!_.isObject(val) && typeof val !== 'boolean' && val !== null) {
+  if (!_.isObject(val) && typeof val !== 'boolean' && val !== null && typeof val !== 'number') {
     return `'${val}'`;
   }
   if (_.isObject(val)) {
