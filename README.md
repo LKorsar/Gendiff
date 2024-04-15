@@ -7,7 +7,7 @@
 # Difference calculator
 
 ## Description:
-Utility, which compares two configuration files and gets difference between them. Program accepts files whith extension json, yml and yaml. Output is avaliable in several formats: plain, stylish and json.
+Utility, which compares two configuration files and gets difference between them. Program accepts files whith extension json or yml. Output is avaliable in several formats: plain, stylish and json.
 
 ### System requirements:
 Node.js
