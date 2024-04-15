@@ -33,6 +33,10 @@ https://asciinema.org/a/r5B6fNaOKpGhA8gYDjZQRdNyS
 
 https://asciinema.org/a/W57HZ68na6To7Ga4HR3mpnQNj
 
+### Demonstartion of comparing two nested files, output format json
+
+https://asciinema.org/a/Yc5e6vyOG6av2Yjf3ef8ELoxR
+
 
 
 
