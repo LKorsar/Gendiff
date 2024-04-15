@@ -25,9 +25,13 @@ make install
 
 [https://asciinema.org/a/jdFtwYesIt9T8u4RSErSswcne](https://asciinema.org/a/UwLHmkSLOvSiCyMXVbBCmMniW)
 
-### Demonstration of comparing two nested files
+### Demonstration of comparing two nested files, output format stylish
 
 https://asciinema.org/a/r5B6fNaOKpGhA8gYDjZQRdNyS
+
+### Demonstration of comparing two nested files, output format plain
+
+https://asciinema.org/a/W57HZ68na6To7Ga4HR3mpnQNj
 
 
 
