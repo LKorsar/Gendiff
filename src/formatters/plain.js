@@ -8,17 +8,13 @@ const getPathToKey = (node, currentPath) => {
 };
 
 const stringify = (val) => {
-  let currentValue;
   if (!_.isObject(val) && typeof val !== 'boolean' && val !== null) {
-    currentValue = `'${val}'`;
-    return currentValue;
+    return `'${val}'`;
   }
   if (_.isObject(val)) {
-    currentValue = '[complex value]';
-    return currentValue;
+    return '[complex value]';
   }
-  currentValue = `${val}`;
-  return val;
+  return `${val}`;
 };
 
 const iter = (diff, path) => diff
