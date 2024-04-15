@@ -8,7 +8,7 @@ const switchingFormat = (tree, formatName) => {
     case 'plain':
       return getPlainFormat(tree);
     case 'json':
-      return JSON.stringify(tree);  
+      return JSON.stringify(tree);
     default:
       throw new Error('Unknown output format');
   }

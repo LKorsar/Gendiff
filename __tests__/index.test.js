@@ -47,4 +47,3 @@ describe('format json', () => {
     expect(gendiff(file3, file4, 'json')).toEqual(file4Output);
   });
 });
-
