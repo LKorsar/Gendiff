@@ -19,19 +19,19 @@ make install
 
 ### Demonstration of comparing two flat json-files and two flat yml-files
 
-<script src="https://asciinema.org/a/UwLHmkSLOvSiCyMXVbBCmMniW.js" id="asciicast-653403" async="true"></script>
+[![asciicast](https://asciinema.org/a/UwLHmkSLOvSiCyMXVbBCmMniW.svg)](https://asciinema.org/a/UwLHmkSLOvSiCyMXVbBCmMniW)
 
 ### Demonstration of comparing two nested files, output format stylish
 
-<script src="https://asciinema.org/a/r5B6fNaOKpGhA8gYDjZQRdNyS.js" id="asciicast-653776" async="true"></script>
+[![asciicast](https://asciinema.org/a/r5B6fNaOKpGhA8gYDjZQRdNyS.svg)](https://asciinema.org/a/r5B6fNaOKpGhA8gYDjZQRdNyS)
 
 ### Demonstration of comparing two nested files, output format plain
 
-<script src="https://asciinema.org/a/W57HZ68na6To7Ga4HR3mpnQNj.js" id="asciicast-654213" async="true"></script>
+[![asciicast](https://asciinema.org/a/W57HZ68na6To7Ga4HR3mpnQNj.svg)](https://asciinema.org/a/W57HZ68na6To7Ga4HR3mpnQNj)
 
 ### Demonstartion of comparing two nested files, output format json
 
-<script src="https://asciinema.org/a/Yc5e6vyOG6av2Yjf3ef8ELoxR.js" id="asciicast-654220" async="true"></script>
+[![asciicast](https://asciinema.org/a/Yc5e6vyOG6av2Yjf3ef8ELoxR.svg)](https://asciinema.org/a/Yc5e6vyOG6av2Yjf3ef8ELoxR)
 
 
 
