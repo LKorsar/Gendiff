@@ -8,10 +8,10 @@ const getPathToKey = (node, currentPath) => {
 };
 
 const stringify = (val) => {
-  if (!_.isObject(val) && typeof val !== 'boolean' && val !== null && typeof val !== 'number') {
+  if (!_.isPlainObject(val) && typeof val !== 'boolean' && val !== null && typeof val !== 'number') {
     return `'${val}'`;
   }
-  if (_.isObject(val)) {
+  if (_.isPlainObject(val)) {
     return '[complex value]';
   }
   return `${val}`;

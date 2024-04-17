@@ -10,7 +10,7 @@ const switchingFormat = (tree, formatName) => {
     case 'json':
       return JSON.stringify(tree);
     default:
-      throw new Error('Unknown output format');
+      throw new Error(`Unknown output ${formatName}`);
   }
 };
 
