@@ -19,19 +19,19 @@ make install
 
 ### Demonstration of comparing two flat json-files and two flat yml-files
 
-[https://asciinema.org/a/jdFtwYesIt9T8u4RSErSswcne](https://asciinema.org/a/UwLHmkSLOvSiCyMXVbBCmMniW)
+<script src="https://asciinema.org/a/UwLHmkSLOvSiCyMXVbBCmMniW.js" id="asciicast-653403" async="true"></script>
 
 ### Demonstration of comparing two nested files, output format stylish
 
-https://asciinema.org/a/r5B6fNaOKpGhA8gYDjZQRdNyS
+<script src="https://asciinema.org/a/r5B6fNaOKpGhA8gYDjZQRdNyS.js" id="asciicast-653776" async="true"></script>
 
 ### Demonstration of comparing two nested files, output format plain
 
-https://asciinema.org/a/W57HZ68na6To7Ga4HR3mpnQNj
+<script src="https://asciinema.org/a/W57HZ68na6To7Ga4HR3mpnQNj.js" id="asciicast-654213" async="true"></script>
 
 ### Demonstartion of comparing two nested files, output format json
 
-https://asciinema.org/a/Yc5e6vyOG6av2Yjf3ef8ELoxR
+<script src="https://asciinema.org/a/Yc5e6vyOG6av2Yjf3ef8ELoxR.js" id="asciicast-654220" async="true"></script>
 
 
 
